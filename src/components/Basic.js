@@ -22,7 +22,7 @@ function Basic() {
   // Обработчик отправки сообщения
   const handleSubmit = (evt) => {
     evt.preventDefault(); // Предотвращаем перезагрузку страницы при отправке формы
-    const name = "shreyas"; // Имя пользователя (можно сделать динамическим)
+    const name = "PractikumStudent"; // Имя пользователя
     const request_temp = { sender: "user", sender_id: name, msg: inputMessage };
 
     if (inputMessage !== "") {
